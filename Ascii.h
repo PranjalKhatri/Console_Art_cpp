@@ -75,9 +75,11 @@ namespace ascii
             for (int i = 0; i < text.size(); i++)
             {
                 char c = text[i];
-
-                // Uppercase alphabets
-                if (c == 'A')
+                
+                if(c == ' '){
+                    character = font->space();
+                }// Uppercase alphabets
+                else if (c == 'A')
                     character = font->A();
                 else if (c == 'B')
                     character = font->B();

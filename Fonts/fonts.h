@@ -67,11 +67,18 @@ public:
             {
                 std::cout << letters[i][j];
             }
-            std::cout << std::endl;
+            if(i == (letters.size()-1)){
+                continue;
+            }
+            std::cout << "\n";
         }
     }
 
     /********************************adding virtual functions********************************/
+    virtual char**space(){
+        std::cout << "[space bar] not overridden?" << std::endl;
+        return nullptr;
+    }
     // Virtual functions for lowercase letters
     virtual char **a()
     {
@@ -400,7 +407,7 @@ public:
         {
             letters.emplace_back(100, ' '); // Create rows with 100 spaces each
         }
-        curr_col = 0;
+        // curr_col = 0;
     }
     ~Fonts()
     {
