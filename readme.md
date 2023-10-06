@@ -31,19 +31,30 @@ Features 🎉 Supports a variety of fonts, including standard fonts, decorative 
 ## Usage
 
 
-<br/>
-<div align="center">
-<img src="./sample.gif">
-</div>
+
+
+# `Ascii Functions` :
+##  ` Ascii()` : default constructor sets font to [Banner](./Fonts/banner/banner.md) 
+## `Ascii(const FontName &fontName)` : sets the font to given parameter {FontName is Enum}
+
+## `Ascii.print(const std::string &s)` : prints the given text in the set font and proceeds to new line
+## `Ascii.SetFont(const FontName &fontName)` : sets the font to given parameter
+
+Example :   
+    ```Ascii a = Ascii(banner)```
+    </br>
+    ```a.print("Console Art)"```  
+
 <br/>
 <strong>Result</strong>
 <br/>
 <br/>
 
 <div align="center">
-<img src="./7star-result.png">
+<img src="./CosoleArt.png">
 </div>
 
+## Avaliable Fonts
 ### 1-[Seven star](./Fonts/SevenStar/sevenstar.md)
 
 ### 2-[Boomer](./Fonts/Boomer/boomer.md)

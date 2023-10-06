@@ -7,6 +7,7 @@ using namespace ascii;
 int main()
 {
     Ascii a = Ascii(banner);
-    a.print("0123456789");
+    a.print("Console Art");
+    
     return 0;
 }

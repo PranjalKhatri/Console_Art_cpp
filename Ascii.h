@@ -30,7 +30,13 @@ namespace ascii
     public:
         // std::string fontName;
         Fonts *font;
-        Ascii(const FontName &fontName)
+        Ascii(){
+            this->font = new Banner();
+        }
+        Ascii(const FontName &fontname){
+            SetFont(fontname);
+        }
+        void SetFont(const FontName &fontName)
         {
             // std::cout<<"initialised ascii";
             if (fontName == FontName::sevenstar)

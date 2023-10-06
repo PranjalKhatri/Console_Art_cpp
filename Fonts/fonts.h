@@ -67,10 +67,7 @@ public:
             {
                 std::cout << letters[i][j];
             }
-            if(i == (letters.size()-1)){
-                continue;
-            }
-            std::cout << "\n";
+            std::cout << std::endl;
         }
     }
 
@@ -407,7 +404,7 @@ public:
         {
             letters.emplace_back(100, ' '); // Create rows with 100 spaces each
         }
-        // curr_col = 0;
+        curr_col = 0;
     }
     ~Fonts()
     {
