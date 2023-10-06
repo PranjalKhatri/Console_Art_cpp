@@ -70,51 +70,25 @@ Example :
 1. [Art 6.1](https://pypi.org/project/art/)
 2. [Ascii Generator](https://ascii-generator.site/t/)
 
+### This is cloned form [Ascii Art](https://github.com/codewithnick/ascii-art) by [code with nick](https://github.com/codewithnick) and further developed by me
 ## Authors
 
 <!-- readme: collaborators -start -->
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/sachinkumar911">
-            <img src="https://avatars.githubusercontent.com/u/115224664?v=4" width="100;" alt="subrajeet-maharana"/>
+        <a href="https://github.com/PranjalKhatri">
+            <img src="https://avatars.githubusercontent.com/u/68675142?s=400&v=4" width="100;" alt="Pranjal"/>
             <br />
-            <sub><b>Sachin Kumar</b></sub>
+            <sub><b>Pranjal Khatri</b></sub>
         </a>
     </td>
-    <td align="center">
-        <a href="https://github.com/vishu567">
-            <img src="https://avatars.githubusercontent.com/u/112263798?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Vishal</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vkumar8192449">
-            <img src="https://avatars.githubusercontent.com/u/64706066?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Vinay Kumar</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AnshumanMahato">
-            <img src="https://avatars.githubusercontent.com/u/58422570?v=4" width="100;" alt="AnshumanMahato"/>
-            <br />
-            <sub><b>Anshuman Mahato</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/codewithnick">
-            <img src="https://avatars.githubusercontent.com/u/53932029?v=4" width="100;" alt="vkumar8192449"/>
-            <br />
-            <sub><b>Nikhil Singh</b></sub>
-        </a>
-    </td>
-    </tr>
+
+</tr>
 </table>
 
 ## Show your support
 
-<h3>Star this repo</h3>
+<h3>Raise issues and help in further development</h3>
 
 Give a ⭐ if you like this project !
